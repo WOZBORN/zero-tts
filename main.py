@@ -1,5 +1,7 @@
 import os
 
+# ТУТ МОГЛА БЫ БЫТЬ ВАША РЕКЛАМА
+
 from dotenv import load_dotenv
 import telebot
 
