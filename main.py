@@ -1,5 +1,7 @@
 import os
 
+# Это новая строчка
+
 from dotenv import load_dotenv
 import telebot
 
