@@ -1,7 +1,5 @@
 import os
 
-# Это новая строчка
-
 from dotenv import load_dotenv
 import telebot
 
@@ -25,7 +23,7 @@ selected_voice = {}
 @bot.message_handler(commands=['start'])
 def send_welcome(message):
     bot.reply_to(message,
-                 "Привет! Я бот для создания озвучки! Выбери голос, который будет использоваться при создании озвучки:",
+                 "Здравствуйте! Я бот для создания озвучки! Выберите голос, который будет использоваться при создании озвучки:",
                  reply_markup=voice_buttons)
 
 
