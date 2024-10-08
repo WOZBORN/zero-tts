@@ -1,3 +1,1 @@
-import game
-
-game.main()
+from voices import voice_generator
