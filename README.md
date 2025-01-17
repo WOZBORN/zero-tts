@@ -23,6 +23,23 @@ ZeroTTS — это проект для преобразования текста
    pip install -r requirements.txt
    ```
 
+4 Получите api ключ на сайте Elevenlabs:
+https://elevenlabs.io/
+
+5. Получите токен телеграм-бота у BotFather:
+https://telegram.me/BotFather
+
+5. Создайте `.env` файл:
+```
+echo 
+```
+
+6. Впишите в него ваш ключ api Elevenlabs и токен бота:
+```
+ELEVEN_LABS_API_KEY="ключ api elevenlabs"
+BOT_TOKEN="токен бота"
+```
+
 ## Использование
 
 1. Запустите основной файл:
@@ -34,12 +51,13 @@ ZeroTTS — это проект для преобразования текста
 ## Структура проекта
 
 ```plaintext
-ZeroTTS/
+zero-tts/
 │
 ├── main.py                # Точка входа программы
 ├── voices/
 │   └── voice_generator.py # Генерация речи
 ├── requirements.txt       # Зависимости проекта
+├── .env                   # Его нужно создать
 ```
 
 ### Основные файлы
