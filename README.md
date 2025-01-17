@@ -30,7 +30,7 @@ https://elevenlabs.io/
 https://telegram.me/BotFather
 
 5. Создайте `.env` файл:
-```
+```bash
 touch .env
 ```
 
