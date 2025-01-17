@@ -31,7 +31,7 @@ https://telegram.me/BotFather
 
 5. Создайте `.env` файл:
 ```
-echo 
+touch .env
 ```
 
 6. Впишите в него ваш ключ api Elevenlabs и токен бота:
