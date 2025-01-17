@@ -65,26 +65,6 @@ zero-tts/
 - **main.py**: выполняет запуск программы, обрабатывает текст и сохраняет результат.
 - **voice_generator.py**: отвечает за синтез речи, работу с моделью и сохранение аудиофайлов.
 
-## Пример кода
-
-Пример использования `VoiceGenerator` для генерации аудио:
-
-```python
-from voices.voice_generator import VoiceGenerator
-
-# Инициализация генератора
-voice_gen = VoiceGenerator()
-
-# Загрузка модели
-voice_gen.load_model("path/to/model")
-
-# Синтез текста в аудио
-audio_data = voice_gen.synthesize("Привет, мир!")
-
-# Сохранение аудио
-voice_gen.save_audio(audio_data, "output.wav")
-```
-
 ## Вклад
 
 Если вы хотите внести свой вклад в проект:

@@ -22,7 +22,6 @@ def generate_audio(text: str, voice: str):
         model="eleven_multilingual_v2"
     )
 
-    # Подсчет символов в тексте и вывод в консоль
     character_count = len(text)
     print(f"Запрос потратил {character_count} символов.")
 
@@ -32,7 +31,6 @@ def generate_audio(text: str, voice: str):
 
 
 def check_remaining_tokens():
-    # Запрос к API для получения информации о подписке
     api_key = os.getenv("ELEVEN_LABS_API_KEY")
     url = "https://api.elevenlabs.io/v1/user/subscription"
 
