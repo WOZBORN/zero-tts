@@ -23,7 +23,7 @@ ZeroTTS — это проект для преобразования текста
    pip install -r requirements.txt
    ```
 
-4 Получите api ключ на сайте Elevenlabs:
+4. Получите api ключ на сайте Elevenlabs:
 https://elevenlabs.io/
 
 5. Получите токен телеграм-бота у BotFather:
