@@ -43,7 +43,6 @@ def generate_voice(message):
         voice_name = selected_voice[user_id]
         voice_id = next(v['id'] for v in voices if v['name'] == voice_name)
         audio_file = voice_generator.generate_audio(message.text, voice_id)
-        voice_generator.check_remaining_tokens()
 
         with open(audio_file, 'rb') as audio:
             bot.send_voice(user_id, audio)
